@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    color: #70e5ed;
+}
+
+h1 {
+    text-align: center;
+}
+
+#todo-container {
+    margin-top: 20px;
+}
+
+#todo-input {
+    padding: 5px;
+    width: 250px;
+}
+
+#add-btn {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+/* Add a CSS class for checked to-do items */
+.completed {
+    text-decoration: line-through;
+    color: #777;
+}
+
+/* Add CSS animations for checked and deleted to-do items */
+@keyframes fadeGreen {
+    0% { background-color: #fff; }
+    100% { background-color: #b5e5b5; }
+}
+
+@keyframes fadeRed {
+    0% { opacity: 1; }
+    100% { opacity: 0; }
+}
